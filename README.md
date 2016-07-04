@@ -1,2 +1,19 @@
 # tiny-parse
-URL parsing with coercion
+
+[![build status](https://secure.travis-ci.org/avoidwork/tiny-parse.svg)](http://travis-ci.org/avoidwork/tiny-parse)
+
+URL parsing with coercion of `query`
+
+### Example
+
+```javascript
+"use strict";
+
+const parse = require("./index.js");
+
+console.log(parse("/?abc=true").query.abc === true); // true
+```
+
+## License
+Copyright (c) 2016 Jason Mulligan
+Licensed under the BSD-3 license.
