@@ -9,7 +9,7 @@ URL parsing with coercion of `query`
 ```javascript
 "use strict";
 
-const parse = require("./index.js");
+const parse = require("tiny-parse");
 
 console.log(parse("/?abc=true").query.abc === true); // true
 ```
