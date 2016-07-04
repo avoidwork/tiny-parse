@@ -1,0 +1,6 @@
+{
+  "name": "tiny-parse",
+  "tagline": "URL parsing with coercion",
+  "body": "# tiny-parse\r\n\r\n[![build status](https://secure.travis-ci.org/avoidwork/tiny-parse.svg)](http://travis-ci.org/avoidwork/tiny-parse)\r\n\r\nURL parsing with coercion of `query`\r\n\r\n### Example\r\n\r\n```javascript\r\n\"use strict\";\r\n\r\nconst parse = require(\"tiny-parse\");\r\n\r\nconsole.log(parse(\"/?abc=true\").query.abc === true); // true\r\n```\r\n\r\n## License\r\nCopyright (c) 2016 Jason Mulligan\r\nLicensed under the BSD-3 license.\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
