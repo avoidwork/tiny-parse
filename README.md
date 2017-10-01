@@ -12,10 +12,11 @@ URL parsing with coercion of `query`
 const parse = require("tiny-parse");
 
 console.log(parse("/?abc=true").query.abc === true); // true
+console.log(parse("/?abc=true", false).query.abc === true); // false
 ```
 
 ### API
-*parse()*
+*parse(arg, coerce=true)*
 Parses the input, accepts a URL or `http.ClientRequest` 
 
 ## License
