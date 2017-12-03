@@ -28,12 +28,12 @@
   },
   "homepage": "http://avoidwork.github.io/tiny-parse/",
   "dependencies": {
-    "retsu": "~2.0.3",
-    "tiny-coerce": "~1.0.1"
+    "retsu": "^3.0.1",
+    "tiny-coerce": "^1.0.1"
   },
   "devDependencies": {
-    "grunt": "~1.0.1",
-    "grunt-eslint": "~20.1.0",
-    "grunt-nsp": "~2.3.1"
+    "grunt": "^1.0.1",
+    "grunt-eslint": "^20.1.0",
+    "grunt-nsp": "^2.3.1"
   }
 }
