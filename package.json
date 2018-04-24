@@ -1,6 +1,6 @@
 {
   "name": "tiny-parse",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "description": "URL parsing with coercion of `query`",
   "main": "index.js",
   "scripts": {
@@ -28,7 +28,7 @@
   },
   "homepage": "http://avoidwork.github.io/tiny-parse/",
   "dependencies": {
-    "retsu": "^3.0.1",
+    "retsu": "^3.0.2",
     "tiny-coerce": "^1.0.1"
   },
   "devDependencies": {
