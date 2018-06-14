@@ -11,8 +11,8 @@ URL parsing with coercion of `query`
 
 const parse = require("tiny-parse");
 
-console.log(parse("/?abc=true").query.abc === true); // true
-console.log(parse("/?abc=true", false).query.abc === true); // false
+console.log(parse("http://localhost/?abc=true").query.abc === true); // true
+console.log(parse("http://localhost/?abc=true", false).query.abc === true); // false
 ```
 
 ### API
@@ -20,5 +20,5 @@ console.log(parse("/?abc=true", false).query.abc === true); // false
 Parses the input, accepts a URL or `http.ClientRequest` 
 
 ## License
-Copyright (c) 2016 Jason Mulligan
+Copyright (c) 2018 Jason Mulligan
 Licensed under the BSD-3 license.
