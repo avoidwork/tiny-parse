@@ -1,6 +1,6 @@
 {
   "name": "tiny-parse",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "URL parsing with coercion of `query`",
   "main": "index.js",
   "scripts": {
@@ -33,6 +33,7 @@
   },
   "devDependencies": {
     "grunt": "^1.0.3",
+    "grunt-contrib-nodeunit": "^2.0.0",
     "grunt-eslint": "^20.2.0",
     "grunt-nsp": "^2.3.1"
   }
